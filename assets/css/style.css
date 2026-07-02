@@ -380,13 +380,15 @@ ul {
 .gallery-item {
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-md);
-  background: color-mix(in srgb, var(--tile-color) 18%, white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.6rem;
-  border: 2px solid color-mix(in srgb, var(--tile-color) 40%, white);
+  overflow: hidden;
+  box-shadow: var(--shadow);
   transition: transform 0.25s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .gallery-item:hover {
