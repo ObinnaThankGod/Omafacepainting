@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#FFF6EE"/>
+      <stop offset="55%" stop-color="#FFE7F1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </radialGradient>
+    <linearGradient id="wingPink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#A29BFE"/>
+    </linearGradient>
+    <linearGradient id="wingTeal" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3AB6FF"/>
+      <stop offset="100%" stop-color="#4ECDC4"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD93D"/>
+      <stop offset="100%" stop-color="#FF8C42"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="920" fill="url(#bgGlow)"/>
+
+  <!-- shoulders / shirt -->
+  <path d="M170 800 Q400 705 630 800 L668 920 L132 920 Z" fill="url(#shirtGrad)"/>
+  <path d="M330 770 Q400 810 470 770" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- neck -->
+  <rect x="358" y="580" width="84" height="100" rx="30" fill="#FFE0C2"/>
+
+  <!-- hair back -->
+  <path d="M225 470 Q210 280 400 268 Q590 280 575 470 Q588 555 542 592 L540 470 Q525 380 400 380 Q275 380 260 470 L258 592 Q212 555 225 470 Z" fill="#6B4A3A"/>
+
+  <!-- head -->
+  <ellipse cx="400" cy="490" rx="178" ry="198" fill="#FFE0C2"/>
+
+  <!-- ears -->
+  <ellipse cx="224" cy="500" rx="24" ry="34" fill="#FFE0C2"/>
+  <ellipse cx="576" cy="500" rx="24" ry="34" fill="#FFE0C2"/>
+
+  <!-- bangs -->
+  <path d="M234 372 Q400 288 566 372 Q564 328 520 306 Q400 254 280 306 Q236 328 234 372 Z" fill="#6B4A3A"/>
+
+  <!-- butterfly face paint -->
+  <path d="M400 400 C 322 300, 168 322, 168 420 C 168 486 292 508 400 468 Z" fill="url(#wingPink)"/>
+  <path d="M400 400 C 478 300, 632 322, 632 420 C 632 486 508 508 400 468 Z" fill="url(#wingTeal)"/>
+  <path d="M400 468 C 356 442, 270 458, 270 508 C 270 546 348 552 400 516 Z" fill="#A29BFE" opacity="0.9"/>
+  <path d="M400 468 C 444 442, 530 458, 530 508 C 530 546 452 552 400 516 Z" fill="#FFD93D" opacity="0.9"/>
+  <path d="M400 400 Q396 430 400 462" stroke="#2D2A4A" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M400 402 C 386 372, 358 358, 340 366" stroke="#2D2A4A" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M400 402 C 414 372, 442 358, 460 366" stroke="#2D2A4A" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <g>
+    <path d="M320 512 Q345 494 372 512 Q345 528 320 512 Z" fill="#2D2A4A"/>
+    <circle cx="350" cy="508" r="4" fill="#fff"/>
+    <path d="M428 512 Q455 494 480 512 Q455 528 428 512 Z" fill="#2D2A4A"/>
+    <circle cx="458" cy="508" r="4" fill="#fff"/>
+  </g>
+
+  <!-- blush -->
+  <circle cx="308" cy="558" r="24" fill="#FF8C42" opacity="0.45"/>
+  <circle cx="492" cy="558" r="24" fill="#FF8C42" opacity="0.45"/>
+
+  <!-- nose -->
+  <path d="M392 528 Q400 548 410 528" stroke="#E8B78F" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- smile -->
+  <path d="M340 588 Q400 638 460 588" stroke="#2D2A4A" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M355 596 Q400 622 445 596 Q400 615 355 596 Z" fill="#fff" opacity="0.9"/>
+
+  <!-- sparkle accents -->
+  <g fill="#FFD93D">
+    <path d="M596 340 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z"/>
+  </g>
+  <g fill="#FF6B9D">
+    <path d="M188 300 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 Z"/>
+  </g>
+</svg>
