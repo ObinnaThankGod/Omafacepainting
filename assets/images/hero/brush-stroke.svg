@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="brushGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="30%" stop-color="#A29BFE"/>
+      <stop offset="60%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#FFD93D"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 90 C 40 40, 120 30, 190 55 C 260 80, 300 30, 380 45
+           C 470 62, 520 100, 610 78 C 690 58, 740 105, 820 82
+           C 850 74, 875 85, 890 70
+           L 895 110 C 860 135, 800 100, 730 122
+           C 650 148, 590 110, 500 128
+           C 410 146, 350 108, 270 125
+           C 190 142, 130 122, 60 138
+           C 35 142, 15 128, 10 110 Z"
+        fill="url(#brushGrad)" opacity="0.85"/>
+</svg>
